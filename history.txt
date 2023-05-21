@@ -1,0 +1,6 @@
+tarefa 1:
+
+sudo docker image build . -t caddy:caddy
+sudo docker container run --name mycaddy -p 80:80 -d caddy:caddy
+
+tarefa 2: não consegui
